@@ -8,7 +8,7 @@
 [class*=" w-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'webflow-icons' !important;
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -95,9 +95,9 @@ html.w-mod-touch * {
   cursor: pointer;
   border-radius: 0;
 }
-input.w-button {
+/* input.w-button {
   -webkit-appearance: button;
-}
+} */
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
@@ -155,8 +155,8 @@ html[data-w-dynpage] [data-w-cloak] {
   text-transform: inherit;
   list-style-type: disc;
   text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
+  /* font-smoothing: auto; */
+  /* vertical-align: baseline; */
   cursor: inherit;
   white-space: inherit;
   word-break: normal;
@@ -300,7 +300,7 @@ button,
 [type='reset'] {
   border: 0;
   cursor: pointer;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
 }
 .w-form {
   margin: 0 0 15px;
@@ -332,7 +332,7 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
@@ -943,7 +943,7 @@ textarea.w-select {
   background: #dddddd;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
 }
 .w-slider-mask {
   position: relative;
@@ -976,7 +976,7 @@ textarea.w-select {
   height: 40px;
   text-align: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
 }
 .w-slider-nav.w-round > div {
   border-radius: 100%;
@@ -1034,7 +1034,7 @@ textarea.w-select {
   color: white;
   font-size: 40px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1191,12 +1191,12 @@ textarea.w-select {
   z-index: 2000;
   outline: 0;
   /* 1 */
-  opacity: 0;
+  /* opacity: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-tap-highlight-color: transparent;
-  -webkit-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0); */
   /* 2 */
 }
 /**
@@ -1355,7 +1355,7 @@ textarea.w-select {
   box-sizing: content-box;
   /* 1 */
   cursor: pointer;
-  -webkit-transform: translate3d(0, 0, 0);
+  /* -webkit-transform: translate3d(0, 0, 0); */
   /* 2 */
 }
 .w-lightbox-active {
@@ -1686,7 +1686,7 @@ textarea.w-select {
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
